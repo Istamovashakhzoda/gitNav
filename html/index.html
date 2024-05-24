@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GitHub Navbar</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+      .navbar{
+        display: flex;
+        gap: 90px;
+        align-items: center;
+        background-color: #24292e;
+      }
+
+      .d-flex::placeholder{
+        font-size: 19px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar  navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <img
+          src="./images/github.png"
+          style="width: 50px; height: 50px; border-radius: 50%;"
+        />
+
+        <div class="dropdown" style="margin-left: -55%;">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            style="background-color: transparent; border: none; color: #ffff;"
+          >
+            Product
+          </button>
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            style="background-color: transparent; border: none; color: #ffff;"
+          >
+            Solutions
+          </button>
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            style="background-color: transparent; border: none; color: #ffff;"
+          >
+            Opne Source
+          </button>
+          <button
+            class="btn btn-secondary "
+            type="button"
+            style="background-color: transparent; border: none; color: #ffff;"
+          >
+            Pricing
+          </button>
+        </div>
+        <form
+          class="d-flex"
+          role="search"
+          style="display: flex; align-items: center;"
+        >
+          <button
+            style="background-color: #24292e; border: none; color:white; width:
+          100px; font-size: 18px;"
+          >
+            Sign in
+          </button>
+          <button class="btn btn-outline-light" bor>Sign up</button>
+        </form>
+      </div>
+    </nav>
+  </body>
+</html>
